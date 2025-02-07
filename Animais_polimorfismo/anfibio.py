@@ -1,8 +1,8 @@
 from animal import Animal
 
 class Anfibio(Animal):
-    def __ini__(self, nome):
-        super().__init__(nome)
+    def __init__(self, nome, idade):
+        super().__init__(nome, idade)
 
     def faz_som(self):
         print(f"{self.nome} faz um coaxar característico.")

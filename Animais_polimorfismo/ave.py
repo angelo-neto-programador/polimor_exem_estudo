@@ -1,8 +1,8 @@
 from animal import Animal
 
 class Ave(Animal):
-    def __init__(self, nome):
-        super().__init__(nome)
+    def __init__(self, nome, idade):
+        super().__init__(nome, idade)
 
 
     def faz_som(self):
